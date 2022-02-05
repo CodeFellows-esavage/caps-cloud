@@ -1,0 +1,24 @@
+{
+  "name": "caps-cloud",
+  "version": "1.0.0",
+  "description": "build a serverless event driven caps system on AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriksavage/caps-cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eriksavage/caps-cloud/issues"
+  },
+  "homepage": "https://github.com/eriksavage/caps-cloud#readme",
+  "dependencies": {
+    "aws-cli": "^0.0.2",
+    "aws-sdk": "^2.1068.0"
+  }
+}
