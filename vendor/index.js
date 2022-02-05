@@ -8,7 +8,7 @@ AWS.config.update({ region: 'us-west-2' });
 
 const sns = new AWS.SNS();
 //the topic this message is published to on AWS
-const topic = 'arn:aws:sns:us-west-2:130781547038:pickup';
+const topic = 'arn:aws:sns:us-west-2:130781547038:pickup.fifo';
 
 const shipment = {
   orderId: nanoid(),
