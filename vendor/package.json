@@ -19,6 +19,8 @@
   "homepage": "https://github.com/eriksavage/caps-cloud#readme",
   "dependencies": {
     "aws-cli": "^0.0.2",
-    "aws-sdk": "^2.1068.0"
+    "aws-sdk": "^2.1068.0",
+    "nanoid": "^3.2.0",
+    "random-name": "^0.1.2"
   }
 }
